@@ -1,0 +1,11 @@
+$mainBlue: #316dd4;
+
+html{
+    background-color: $mainBlue;
+    columns: 400px 2;
+
+    body{
+        margin: 50px;
+        background-color: rgb(95, 182, 49);
+    } 
+}

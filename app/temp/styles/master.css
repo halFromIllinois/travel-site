@@ -1,0 +1,10 @@
+html{
+    background-color: #316dd4;
+    -webkit-columns: 400px 2;
+            columns: 400px 2; 
+}
+
+    html body{
+        margin: 50px;
+        background-color: rgb(95, 182, 49);
+    }
