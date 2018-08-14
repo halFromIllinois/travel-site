@@ -1,11 +1,11 @@
-$mainBlue: #316dd4;
-
-html{
-    background-color: $mainBlue;
-    columns: 400px 2;
-
-    body{
-        margin: 50px;
-        background-color: rgb(95, 182, 49);
-    } 
-}
+@import "normalize.css";
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/_global";
+@import "components/_large-hero";
+@import "components/_btn";
+@import "components/_wrapper";
+@import "components/_page-section";
+@import "components/_headline";
+@import "components/_row";
+@import "components/_generic-content-cont";
