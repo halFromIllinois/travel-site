@@ -23,4 +23,20 @@
         }
 
     }
+    &--no-padding-small{
+        padding-left: 0;
+        padding-right: 0;
+
+        @mixin atSmall{
+            padding: 0 18px 0 18px;
+        }
+    }
+    &--no-padding-large{
+        padding-left: 0;
+        padding-right: 0;
+
+        @mixin atLarge{
+            padding: 0 18px 0 18px;
+        }
+    }
 }
