@@ -11,7 +11,7 @@
     &--centered{
         text-align: center;
     }
-    &--small{
+    &--small{ 
         font-size: 1.3rem;
 
         @mixin atSmall{
