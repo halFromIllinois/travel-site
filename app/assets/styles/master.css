@@ -12,5 +12,7 @@
 @import "components/_section-title";
 @import "components/_feature-item";
 @import "components/_testimonial";
-@import "components/_sprite.css";
-@import "components/_site-footer.css";
+@import "components/_sprite";
+@import "components/_site-footer";
+@import "components/_site-header";
+@import "components/_primary-nav";
