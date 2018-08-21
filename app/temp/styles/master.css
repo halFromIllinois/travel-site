@@ -1142,15 +1142,20 @@ a{
     z-index: 2;
     width: 100%;
     padding: 10px 0;
-    -webkit-transition: background-color 350ms ease-in-out;
-    transition: background-color 350ms ease-in-out;
+    -webkit-transition: background-color 400ms ease-in-out;
+    transition: background-color 400ms ease-in-out;
 }
 
 @media (min-width: 800px){
 
 .site-header{
-        background-color: rgba(47,85,114, 0.3)
+        background-color: rgba(47,85,114, 0.3);
+        position: fixed
 }
+
+        .site-header--darker-bkgrd{
+            background-color: rgba(23, 51, 72, 0.7);
+        }
     }
 
 .site-header--expanded{
@@ -1174,6 +1179,10 @@ a{
                 transform-origin: 50% 0;
         background-color: #2f5572;
         padding: 24px 36px;
+        -webkit-transition: -webkit-transform 400ms ease-in-out;
+        transition: -webkit-transform 400ms ease-in-out;
+        transition: transform 400ms ease-in-out;
+        transition: transform 400ms ease-in-out, -webkit-transform 400ms ease-in-out;
     }
 
 @media (min-width: 800px){
@@ -1183,6 +1192,11 @@ a{
             -webkit-transform: translateX(0) scale(1);
                     transform: translateX(0) scale(1)
     }
+
+            .site-header--darker-bkgrd .site-header__logo {
+                -webkit-transform: scale(.6);
+                        transform: scale(.6);
+            }
     }
 
 .site-header__logo__graphic{
@@ -1348,6 +1362,10 @@ a{
                     background-color: transparent
 
             }
+
+                    .primary-nav ul li a.is-current-link{
+                        color: #fabb69;
+                    }
     }
 
 .primary-nav ul li:last-child{
