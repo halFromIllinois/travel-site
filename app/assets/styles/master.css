@@ -17,3 +17,5 @@
 @import "components/_site-header";
 @import "components/_primary-nav";
 @import "components/_reveal-item";
+@import "/components/_modal.css";
+@import "/components/_social-icons.css";
