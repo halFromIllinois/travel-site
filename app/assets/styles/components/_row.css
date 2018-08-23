@@ -67,7 +67,7 @@
             &--larger{
                 width: 37%;
             }
-        }
+        } 
         &__large-8{
             float: right;
             width: 66.66%;
@@ -83,7 +83,7 @@
     }
 
     /* Equal height rules */
-    &--equal-height{
+    .flexbox &--equal-height{
         @mixin atMedium{
             display: flex;
         }
@@ -93,7 +93,7 @@
             /* flex-basis: 300px; */
         }
     }
-    &--equal-height-large{
+    .flexbox &--equal-height-large{
         @mixin atLarge{
             display: flex;
         }
