@@ -1,0 +1,60 @@
+.primary-nav{
+
+    padding-top: 10px;
+
+    @mixin atMedium{
+        margin-bottom: 0;
+    }
+
+
+    &--pull-right{
+        @mixin atMedium{
+            float: right;
+        }
+    }
+
+    ul{
+        margin: 0;
+        padding: 0 0 5px 0;
+
+        li{
+            list-style: none;
+            padding: 12px 0.4rem 0 0;
+            display: inline-block;
+
+            @mixin atMedium{
+                float: left;
+                display: block;
+
+            }
+
+            a{
+                text-decoration: none;
+                color: white;
+                font-weight: 300;
+                padding: 5px 8px;
+                font-size: .9rem;
+                background-color: rgba($mainBlue, .8);
+
+                @mixin atMedium{
+                    font-size: 1rem;
+                    background-color: transparent;
+
+                    &.is-current-link{
+                        color: #fabb69;
+                    }
+                }
+
+            }
+        }
+
+        li:last-child{
+            padding-right: 0;
+
+            @mixin atMedium{
+                padding-right: 1.25rem;
+            }
+        }
+    }
+
+}
